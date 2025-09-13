@@ -1,4 +1,4 @@
-
+// src/domain/types.ts
 export type Ocupacion = 'estudiante' | 'empleado' | 'retirado';
 
 

@@ -1,3 +1,4 @@
+// src/domain/prestamo.ts
 /**
  * Funcion Aprobar Prestamo
  * 
@@ -7,7 +8,8 @@
  * 
  */
 
-import type { Persona } from "./types.js";
+import type { Persona } from "./types";
+
 
 export function puedeAprobarPrestamo(persona: Persona): boolean {
 
