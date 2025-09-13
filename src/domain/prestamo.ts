@@ -21,6 +21,7 @@ export function puedeAprobarPrestamo(persona: Persona): boolean {
         case 'retirado':
             return persona.tieneDeudas ? false : true;
         default:
+            // return false
             throw new Error('ocupacion invalida');
     }
 }

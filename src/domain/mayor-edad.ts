@@ -6,14 +6,10 @@
  * Retorna false si la edad es menor a 18
  * 
  */
-
-
 export function esMayorDeEdad(edad:number):boolean{
 
     if(!Number.isSafeInteger(edad)) throw new Error('Edad no valida');
-    
     if(edad<0) throw new Error('Edad no valida');
 
-    
     return edad >= 18;
 }

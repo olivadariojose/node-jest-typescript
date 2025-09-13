@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:cov": "jest --coverage"
+    "test:cov": "jest --coverage",
+    "open:cov": "powershell -Command Start-Process ./coverage/lcov-report/index.html"
   },
   "keywords": [],
   "author": "",
